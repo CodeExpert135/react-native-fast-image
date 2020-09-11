@@ -43,7 +43,7 @@ class AutoSizingImage extends Component {
 }
 
 AutoSizingImage.defaultProps = {
-    defaultHeight: 400,
+    defaultHeight: 350,
 }
 
 const AutoSizeExample = ({ onPressReload, bust }) => (
@@ -54,7 +54,7 @@ const AutoSizeExample = ({ onPressReload, bust }) => (
         <SectionFlex onPress={onPressReload}>
             <AutoSizingImage
                 style={styles.image}
-                width={300}
+                width={250}
                 source={{ uri: GIF_URL + bust }}
             />
         </SectionFlex>
@@ -64,7 +64,7 @@ const AutoSizeExample = ({ onPressReload, bust }) => (
 const styles = StyleSheet.create({
     image: {
         backgroundColor: '#ddd',
-        margin: 30,
+        margin: 35,
         flex: 0,
     },
 })
