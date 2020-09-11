@@ -33,10 +33,10 @@ const BorderRadiusExample = ({ onPressReload, bust }) => (
 const styles = StyleSheet.create({
     imageSquare: {
         borderRadius: 50,
-        height: 100,
+        height: 150,
         backgroundColor: '#ddd',
-        margin: 20,
-        width: 100,
+        margin: 25,
+        width: 105,
         flex: 0,
     },
     imageRectangular: {
