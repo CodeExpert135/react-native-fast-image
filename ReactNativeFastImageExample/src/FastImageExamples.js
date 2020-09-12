@@ -53,17 +53,17 @@ FastImageExample.navigationOptions = {
 const styles = StyleSheet.create({
     titleText: {
         fontWeight: '900',
-        marginBottom: 20,
+        marginBottom: 25,
         color: '#222',
     },
     contentContainer: {
-        marginTop: 20,
+        marginTop: 25,
     },
     image: {
         flex: 1,
-        height: 100,
+        height: 105,
         backgroundColor: '#ddd',
-        margin: 10,
+        margin: 15,
     },
     container: {
         flex: 1,
